@@ -5,8 +5,8 @@
 
 	   <!-- se vinculan las entidades que tenemos
 	   en el paquete model... -->
-		<class>model.TBL_USUARIOCL2</class>
-		<class>model.TBL_PRODUCTOCL2</class>
+		<class>model.TblUsuariocl2</class>
+		<class>model.TblProductocl2</class>
 		<!-- mysql -->
 
 		<properties>
