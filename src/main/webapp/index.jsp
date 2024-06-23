@@ -25,6 +25,9 @@
 <br>
 <%
 	String mensaje = (String)request.getAttribute("mensaje");
+	if (mensaje == null) {
+    	mensaje = "";
+	}
 			%>
 <h3 align="center"><%=mensaje %></h3>			
 </body>
